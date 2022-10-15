@@ -1,0 +1,6 @@
+/* whole site as a single container */
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
