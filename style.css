@@ -1,6 +1,58 @@
-/* whole site as a single container */
+/* entire site as a single container */
 .container {
     display: flex;
     flex-direction: column;
+}
+
+body {
+    background-color: #FFFFFF;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+.header,
+.footer {
+    background-color: #1f2937;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-links{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: #3882f6;
+}
+
+.hero-body .paragraph h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f6faf8;
+}
+
+.main-body .content h2{
+    font-size: 36px;
+    font-style: bold;
+    color: #1f2937;
+}
+
+.qoute{
+    background-color: #e5e7eb;
+}
+.qoute p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.sign-text,
+.sign-button {
+    background-color: #3882f6;
 }
 
